@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors Tournament</title>
+    <style>
+        /* Basic styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1 {
+            text-align: center;
+        }
+        .flex-container {
+            display: flex;
+            justify-content: space-around;
+        }
+        .flex-item {
+            flex-basis: 30%;
+            padding: 10px;
+            border: 1px solid #cccccc;
+            border-radius: 5px;
+            margin: 10px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .score-board {
+            font-weight: bold;
+            margin-top: 10px;
+        }
+    </style>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Rock Paper Scissors Tournament</h1>
+    <div class="flex-container">
+        <div class="flex-item">
+            <h2>Players</h2>
+            <ul id="players-list">
+                
+            </ul>
+        </div>
+        <div class="flex-item">
+            <h2>Results</h2>
+            <ul id="results-list">
+                
+            </ul>
+        </div>
+    </div>
+    <div style="text-align: center;">
+        <button id="start-button">Start Tournament</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+

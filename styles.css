@@ -1,0 +1,56 @@
+/* Basic styling for clarity */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.flex-item {
+    flex-basis: 30%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.score-board {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Styling for the tournament results */
+#players-list,
+#results-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+#players-list li {
+    padding: 5px;
+    border-bottom: 1px solid #ccc;
+}
+
+#results-list {
+    margin-top: 20px;
+}
+
+#results-list li {
+    padding: 10px;
+    background-color: #f0f0f0;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
